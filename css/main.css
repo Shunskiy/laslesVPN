@@ -598,17 +598,19 @@ p {
 }
 
 .footer__list {
-  margin-right: 126px;
-
   list-style: none;
 }
 
-.footer__list:last-child {
+.footer__list-container {
+  width: 123px;
+  margin-right: 126px;
+}
+
+.footer__list-container:last-child {
   margin-right: 0;
 }
 
 .footer__list-title {
-  margin-bottom: 20px;
 
   color: #0b132a;
   font-weight: 500;
@@ -616,6 +618,10 @@ p {
 
 .footer__list-item {
   margin-bottom: 10px;
+}
+
+.footer__list-item:first-child {
+  margin-top: 20px;
 }
 
 .footer__list-item:last-child {
