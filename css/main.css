@@ -17,7 +17,7 @@ button {
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 p {
@@ -33,7 +33,7 @@ p {
   justify-content: center;
 
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
 
   background-color: #f53838;
   border-radius: 10px;
@@ -88,7 +88,7 @@ p {
 }
 
 .header__sign-up:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 
   background-color: #f53855;
 }
@@ -347,16 +347,16 @@ p {
   color: #f53838;
   font-weight: 500;
 
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 2px solid #f53838;
   box-sizing: border-box;
   border-radius: 50px;
 }
 
 .plan__card-button--active {
-  color: #FFFFFF;
+  color: #ffffff;
 
-  background-color: #F53838;
+  background-color: #f53838;
   box-shadow: 0 17px 54px 0 rgba(245,56,56,0.35);
 }
 
