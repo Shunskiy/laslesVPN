@@ -3,12 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 
-  font-family: "Rubik", sans-serif;
+  font-family: "Rubik", Roboto, Helvetica, Arial, sans-serif;
   color: #4f5665;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
-
   text-decoration: none;
 }
 
@@ -406,6 +405,7 @@ p {
 
   text-align: center;
 }
+
 .review__card-slider {
   display: flex;
   flex-direction: column;
@@ -770,10 +770,12 @@ p {
 
     background-color: #616161;
   }
+
   .hamburger__button > span::before {
     top: -8px;
     content: "";
   }
+
   .hamburger__button > span::after {
     top: 8px;
     content: "";
@@ -803,11 +805,12 @@ p {
     display: block;
     padding: 12px 24px;
     color: #333;
-    font-family: "Roboto", sans-serif;
+    font-family: "Rubik", Roboto, Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
   }
+
   .hamburger__item:hover {
     background-color: #cfd8dc;
   }
@@ -815,14 +818,17 @@ p {
   .hamburger__toggle:checked ~ .hamburger__button > span {
     transform: rotate(45deg);
   }
+
   .hamburger__toggle:checked ~ .hamburger__button > span::before {
     top: 0;
     transform: rotate(0);
   }
+
   .hamburger__toggle:checked ~ .hamburger__button > span::after {
     top: 0;
     transform: rotate(90deg);
   }
+
   .hamburger__toggle:checked ~ .hamburger__box {
     visibility: visible;
     left: 0;
