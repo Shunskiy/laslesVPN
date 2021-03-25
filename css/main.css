@@ -15,6 +15,10 @@ button {
   border: none;
 }
 
+.glider-contain {
+  width: 100%;
+}
+
 body {
   background-color: #ffffff;
 }
@@ -40,6 +44,14 @@ p {
 
   transition: transform ease 1s;
   backface-visibility: hidden;
+}
+
+#dots {
+  margin:0 !important;
+}
+
+.glider-dot.active {
+  background-color: #f53838 !important;
 }
 
 .glow-button:hover {
@@ -406,6 +418,10 @@ p {
   text-align: center;
 }
 
+.glider-contain {
+  width: 100%;
+}
+
 .review__card-slider {
   display: flex;
   flex-direction: column;
@@ -420,8 +436,9 @@ p {
 }
 
 .review__card {
-  width: 400px;
-  height: 230px;
+  min-width: 400px !important;
+  min-height: 230px !important;
+  margin-right: 20px;
 
   background-color: #ffffff;
   border: 2px solid #dddddd;
@@ -502,7 +519,7 @@ p {
   justify-content: space-between;
   align-items: center;
   margin-top: 82px;
-  width: 1100px;
+  width: 1140px;
 }
 
 .review__circle-button {
@@ -840,6 +857,10 @@ p {
     font-size: 14px;
   }
 
+  #dots {
+    display: none;
+  }
+
   .container {
     width: 300px;
   }
@@ -953,8 +974,12 @@ p {
 
   .review__card {
     height: auto;
-    width: 300px;
+    min-width: 300px !important;
     padding-bottom: 30px;
+  }
+
+  .review__card-about {
+    padding: 0 15px;
   }
 
   .review__card-text {
@@ -966,8 +991,6 @@ p {
   }
 
   .review__button-wrapper {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 42px;
+      display: none;
   }
 }
