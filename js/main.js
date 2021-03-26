@@ -6,6 +6,7 @@ new Glider(document.querySelector(".glider"), {
     next: ".review__arrow-button--right",
   },
   exactWidth: false,
+  scrollLock: true,
   responsive: [
     {
       breakpoint: 900,
