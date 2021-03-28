@@ -356,10 +356,14 @@
   /* Subscribe */
 
   .subscribe {
+    left: 50%;
+
     width: 300px;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+
+    transform: translate(-50%, 0);
   }
 
   .subscribe__title {
