@@ -5,26 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
     <title>LaslesVPN</title>
   </head>
-
   <body>
     <header class="header container">
       <img
-        class="logo header__logo"
+        class="header__logo"
         src="./img/Logo.svg"
         width="149"
         height="36"
-        alt="laslesVPN"
+        alt="LaslesVPN"
       />
       <div class="header__hamburger-menu hamburger">
         <input
@@ -61,266 +56,274 @@
           </li>
         </ul>
       </div>
+
       <nav class="header__nav-bar">
-        <a class="header__link" href="#">About</a>
-        <a class="header__link" href="#">Features</a>
-        <a class="header__link" href="#">Pricing</a>
-        <a class="header__link" href="#">Testimonials</a>
-        <a class="header__link" href="#">Help</a>
+        <a href="#" class="header__link">About</a>
+        <a href="#" class="header__link">Features</a>
+        <a href="#" class="header__link">Pricing</a>
+        <a href="#" class="header__link">Testimonials</a>
+        <a href="#" class="header__link">Help</a>
       </nav>
-      <div class="header__login-bar">
-        <a class="header__sign-in" href="#">Sign In</a>
-        <a class="header__sign-up" href="#">Sign Up</a>
+      <div class="header__login-row">
+        <a href="#" class="header__sign-in">Sign In</a>
+        <a href="#" class="header__sign-up">Sign Up</a>
       </div>
     </header>
     <main class="main">
-      <section class="main__start container">
-        <div class="main__description">
-          <h1 class="main__title">
-            Want anything to be easy with
-            <strong class="main__title main__title--accent">LaslesVPN.</strong>
-          </h1>
-          <p class="main__text text">
-            Provide a network for all your needs with ease and fun using
-            <strong class="main__text text text--accent">LaslesVPN</strong>
-            discover interesting features from us.
-          </p>
-          <a href="#" class="main__start-button glow-button">Get Started</a>
-        </div>
-        <img
-          class="main__start-image"
-          src="./img/main-picture.svg"
-          width="611"
-          height="382"
-          alt="man with laptop"
-        />
-      </section>
-      <section class="main__amount container">
-        <div class="main__amount-box">
-          <img
-            class="main__amount-picture"
-            src="./img/user.svg"
-            width="55"
-            height="55"
-            alt="User picture"
-          />
-          <div class="main__amount-description">
-            <p class="main__amount-number">90+</p>
-            <p class="main__amount-text">Users</p>
-          </div>
-        </div>
-        <div class="main__amount-box">
-          <img
-            class="main__amount-picture"
-            src="./img/location.svg"
-            width="55"
-            height="55"
-            alt="Location picture"
-          />
-          <div class="main__amount-description">
-            <p class="main__amount-number">30+</p>
-            <p class="main__amount-text">Locations</p>
-          </div>
-        </div>
-        <div class="main__amount-box">
-          <img
-            class="main__amount-picture"
-            src="./img/Server.svg"
-            width="55"
-            height="55"
-            alt="Servers picture"
-          />
-          <div class="main__amount-description">
-            <p class="main__amount-number">50+</p>
-            <p class="main__amount-text">Servers</p>
-          </div>
-        </div>
-      </section>
-      <section class="main__features container">
-        <img
-          class="main__features-image"
-          src="./img/features-section-img.svg"
-          width="508"
-          height="415"
-          alt="LaslesVPN features"
-        />
-        <div class="main__features-description">
-          <h2 class="main__section-title section-title">
-            We Provide Many <br />
-            Features You Can Use
-          </h2>
-          <p class="main__start-text text">
-            You can explore the features that we provide with fun and <br />
-            have their own functions each feature.
-          </p>
-          <ul class="main__features-list">
-            <li class="main__features-item">Powerfull online protection.</li>
-            <li class="main__features-item">Internet without borders.</li>
-            <li class="main__features-item">Supercharged VPN</li>
-            <li class="main__features-item">No specific time limits.</li>
-          </ul>
-        </div>
-      </section>
-      <section class="main__plan plan">
-        <h2 class="plan__title section-title">Choose Your Plan</h2>
-        <p class="plan__text main__text">
-          Let's choose the package that is best for you and explore it happily
-          and <br />
-          cheerfully.
-        </p>
-        <div class="plan__card-wrapper container">
-          <div class="plan__card">
-            <div class="plan__text-wrapper">
-              <img
-                class="plan__card-image"
-                src="./img/Free.svg"
-                width="145"
-                height="165"
-                alt="celebration chest"
-              />
-              <p class="plan__card-text">Free Plan</p>
-              <ul class="plan__card-list">
-                <li class="plan__card-item">Unlimited Bandwitch</li>
-                <li class="plan__card-item">Encrypted Connection</li>
-                <li class="plan__card-item">No Traffic Logs</li>
-                <li class="plan__card-item">Works on All Devices</li>
-              </ul>
-            </div>
-            <div class="plan__price-wrapper">
-              <strong class="plan__card-price plan__card-price--accent"
-                >Free</strong
+      <div class="main__container container">
+        <section class="main__start start">
+          <div class="start__description">
+            <h1 class="start__title">
+              Want anything to be easy with
+              <strong class="start__title start__title--accent"
+                >LaslesVPN.</strong
               >
-              <button class="plan__card-button" type="button">Select</button>
+            </h1>
+            <p class="start__text">
+              Provide a network for all your needs with ease and fun using
+              <strong class="start__text text-accent">LaslesVPN</strong>
+              discover interesting features from us.
+            </p>
+            <a href="#" class="start__button glow-button">Get Started</a>
+          </div>
+          <img
+            class="start__img"
+            src="./img/main-picture.svg"
+            width="610"
+            height="382"
+            alt="Man with laptop"
+          />
+        </section>
+        <section class="main__amount amount">
+          <div class="amount__item">
+            <img
+              class="amount__item-img"
+              src="./img/user.svg"
+              width="55"
+              height="55"
+              alt="Users"
+            />
+            <div class="amount-text-wrapper">
+              <strong class="amount__item-number">90+</strong>
+              <p class="amount__item-text">Users</p>
             </div>
           </div>
-          <div class="plan__card">
-            <div class="plan__text-wrapper">
+          <div class="amount__item">
+            <img
+              class="amount__item-img"
+              src="./img/location.svg"
+              width="55"
+              height="55"
+              alt="Locations"
+            />
+            <div class="amount-text-wrapper">
+              <strong class="amount__item-number">30+</strong>
+              <p class="amount__item-text">Locations</p>
+            </div>
+          </div>
+          <div class="amount__item">
+            <img
+              class="amount__item-img"
+              src="./img/Server.svg"
+              width="55"
+              height="55"
+              alt="Servers"
+            />
+            <div class="amount-text-wrapper">
+              <strong class="amount__item-number">50+</strong>
+              <p class="amount__item-text">Servers</p>
+            </div>
+          </div>
+        </section>
+        <section class="main__features features">
+          <img
+            class="features__img"
+            src="./img/features-section-img.svg"
+            width="508"
+            height="415"
+            alt="man with laptop"
+          />
+          <div class="features__description">
+            <h2 class="features__title section-title">
+              We Provide Many Features You Can Use
+            </h2>
+            <p class="features__text">
+              You can explore the features that we provide with fun and have
+              their own functions each feature.
+            </p>
+            <ul class="features__list">
+              <li class="features__item">Powerfull online protection.</li>
+              <li class="features__item">Internet without borders.</li>
+              <li class="features__item">Supercharged VPN</li>
+              <li class="features__item">No specific time limits.</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <div class="main__color-wrapper">
+        <div class="main__container container">
+          <section class="main__plan plan">
+            <h2 class="plan__title section-title">Choose Your Plan</h2>
+            <p class="plan__text">
+              Let's choose the package that is best for you and explore it
+              happily and cheerfully.
+            </p>
+            <div class="plan__card-wrapper">
+              <div class="plan__card">
+                <div class="plan__card-top">
+                  <img
+                    class="plan__card-img"
+                    src="./img/Free.svg"
+                    width="145"
+                    height="165"
+                    alt="Small box"
+                  />
+                  <h3 class="plan__card-text">Free Plan</h3>
+                  <ul class="plan__card-list">
+                    <li class="plan__card-item">Unlimited Bandwitch</li>
+                    <li class="plan__card-item">Encrypted Connection</li>
+                    <li class="plan__card-item">No Traffic Logs</li>
+                    <li class="plan__card-item">Works on All Devices</li>
+                  </ul>
+                </div>
+                <div class="plan__card-bottom">
+                  <p class="plan__card-price">
+                    <strong class="plan__card-price plan__card-price--accent">
+                      Free
+                    </strong>
+                  </p>
+                  <a href="#" class="plan__card-button">Select</a>
+                </div>
+              </div>
+              <div class="plan__card">
+                <div class="plan__card-top">
+                  <img
+                    class="plan__card-img"
+                    src="./img/Standard.svg"
+                    width="145"
+                    height="165"
+                    alt="Standart box"
+                  />
+                  <h3 class="plan__card-text">Standart Plan</h3>
+                  <ul class="plan__card-list">
+                    <li class="plan__card-item">Unlimited Bandwitch</li>
+                    <li class="plan__card-item">Encrypted Connection</li>
+                    <li class="plan__card-item">No Traffic Logs</li>
+                    <li class="plan__card-item">Works on All Devices</li>
+                    <li class="plan__card-item">Connect Anyware</li>
+                  </ul>
+                </div>
+                <div class="plan__card-bottom">
+                  <p class="plan__card-price">
+                    <strong class="plan__card-price plan__card-price--accent">
+                      $9
+                    </strong>
+                    / mo
+                  </p>
+                  <a href="#" class="plan__card-button">Select</a>
+                </div>
+              </div>
+              <div class="plan__card plan__card--active">
+                <div class="plan__card-top">
+                  <img
+                    class="plan__card-img"
+                    src="./img/Premium.svg"
+                    width="145"
+                    height="165"
+                    alt="Premium box"
+                  />
+                  <h3 class="plan__card-text">Premium Plan</h3>
+                  <ul class="plan__card-list">
+                    <li class="plan__card-item">Unlimited Bandwitch</li>
+                    <li class="plan__card-item">Encrypted Connection</li>
+                    <li class="plan__card-item">No Traffic Logs</li>
+                    <li class="plan__card-item">Works on All Devices</li>
+                    <li class="plan__card-item">Connect Anyware</li>
+                    <li class="plan__card-item">Get New Features</li>
+                  </ul>
+                </div>
+                <div class="plan__card-bottom">
+                  <p class="plan__card-price">
+                    <strong class="plan__card-price plan__card-price--accent"
+                      >$12
+                    </strong>
+                    / mo
+                  </p>
+                  <a
+                    href="#"
+                    class="plan__card-button plan__card-button--active"
+                    >Select</a
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="main__global global">
+            <h2 class="global__title section-title">
+              Huge Global Network of Fast VPN
+            </h2>
+            <p class="global__text">
+              See
+              <strong class="global__text text-accent">LaslesVPN</strong>
+              everywhere to make it easier for you when you move locations.
+            </p>
+            <img
+              class="global__map"
+              src="./img/Huge Global.svg"
+              width="1060"
+              height="538"
+              alt="Global map"
+            />
+            <div class="global__sponsors">
               <img
-                class="plan__card-image"
-                src="./img/Free.svg"
-                width="145"
-                height="165"
-                alt="celebration chest"
+                class="global__sponsor"
+                src="./img/netflix.svg"
+                width="200"
+                height="112"
+                alt="netflix"
               />
-              <p class="plan__card-text">Standard Plan</p>
-              <ul class="plan__card-list">
-                <li class="plan__card-item">Unlimited Bandwitch</li>
-                <li class="plan__card-item">Encrypted Connection</li>
-                <li class="plan__card-item">No Traffic Logs</li>
-                <li class="plan__card-item">Works on All Devices</li>
-                <li class="plan__card-item">Connect Anyware</li>
-              </ul>
-            </div>
-            <div class="plan__price-wrapper">
-              <p class="plan__card-price">
-                <strong class="plan__card-price plan__card-price--accent"
-                  >$9</strong
-                >
-                / mo
-              </p>
-              <button class="plan__card-button" type="button">Select</button>
-            </div>
-          </div>
-          <div class="plan__card plan__card--active">
-            <div class="plan__text-wrapper">
               <img
-                class="plan__card-image"
-                src="./img/Free.svg"
-                width="145"
-                height="165"
-                alt="celebration chest"
+                class="global__sponsor"
+                src="./img/reddit.svg"
+                width="156"
+                height="51"
+                alt="reddit"
               />
-              <p class="plan__card-text">Premium Plan</p>
-              <ul class="plan__card-list">
-                <li class="plan__card-item">Unlimited Bandwitch</li>
-                <li class="plan__card-item">Encrypted Connection</li>
-                <li class="plan__card-item">No Traffic Logs</li>
-                <li class="plan__card-item">Works on All Devices</li>
-                <li class="plan__card-item">Connect Anyware</li>
-                <li class="plan__card-item">Get New Features</li>
-              </ul>
+              <img
+                class="global__sponsor"
+                src="./img/amazon.svg"
+                width="278"
+                height="208"
+                alt="amazon"
+              />
+              <img
+                class="global__sponsor"
+                src="./img/discord.svg"
+                width="187"
+                height="64"
+                alt="discord"
+              />
+              <img
+                class="global__sponsor"
+                src="./img/spotify.svg"
+                width="171"
+                height="51"
+                alt="spotify"
+              />
             </div>
-            <div class="plan__price-wrapper">
-              <p class="plan__card-price">
-                <strong class="plan__card-price plan__card-price--accent"
-                  >$12</strong
-                >
-                / mo
-              </p>
-              <button
-                class="plan__card-button plan__card-button--active"
-                type="button"
-              >
-                Select
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="main__global global">
-        <h2 class="global__section-title section-title">
-          Huge Global Network <br />
-          of Fast VPN
-        </h2>
-        <p class="global__text text">
-          See
-          <strong class="main__text text text--accent">LaslesVPN</strong>
-          everywhere to make it easier for you when you move locations.
-        </p>
-        <img class="global__map" src="./img/Huge Global.svg" alt="global map" />
-        <div class="global__sponsor-wrapper container">
-          <img
-            class="global__sponsor"
-            src="./img/netflix.svg"
-            width="200"
-            height="112"
-            alt="netflix"
-          />
-          <img
-            class="global__sponsor"
-            src="./img/reddit.svg"
-            width="156"
-            height="51"
-            alt="reddit"
-          />
-          <img
-            class="global__sponsor"
-            src="./img/amazon.svg"
-            width="277"
-            height="208"
-            alt="amazon"
-          />
-          <img
-            class="global__sponsor"
-            src="./img/discord.svg"
-            width="187"
-            height="66"
-            alt="discord"
-          />
-          <img
-            class="global__sponsor"
-            src="./img/spotify.svg"
-            width="171"
-            height="51"
-            alt="spotify"
-          />
-        </div>
-      </section>
-      <section class="main_review review">
-        <h2 class="review__title section-title">
-          Trusted by Thousands of <br />
-          Happy Customer
-        </h2>
-        <p class="review__text main__text">
-          These are the stories of our customers who have joined us with great
-          <br />
-          pleasure when using this crazy feature.
-        </p>
-        <div class="review__card-wrapper container">
-          <div class="glider-contain">
-            <div class="glider">
-              <div class="review__card review__card--active">
-                <div class="review__card-about">
+          </section>
+          <section class="main__review review">
+            <h2 class="review__title section-title">
+              Trusted by Thousands of Happy Customer
+            </h2>
+            <p class="review__text">
+              These are the stories of our customers who have joined us with
+              great pleasure when using this crazy feature.
+            </p>
+            <!-- Сделать слайдер -->
+            <div class="review__card-wrapper glider">
+              <div class="review__card">
+                <div class="review__card-top">
                   <div class="review__card-id">
                     <img
                       class="review__card-avatar"
@@ -336,23 +339,21 @@
                   </div>
                   <p class="review__card-rating">4.5</p>
                 </div>
-                <div class="review__quote-wrapper">
-                  <q class="review__card-text">
-                    Wow... I am very happy to use this VPN, it turned out to be
-                    more than my expectations and so far there have been no
-                    problems. LaslesVPN always the best.
-                  </q>
-                </div>
+                <q class="review__card-text">
+                  Wow... I am very happy to use this VPN, it turned out to be
+                  more than my expectations and so far there have been no
+                  problems. LaslesVPN always the best.
+                </q>
               </div>
               <div class="review__card">
-                <div class="review__card-about">
+                <div class="review__card-top">
                   <div class="review__card-id">
                     <img
                       class="review__card-avatar"
                       src="./img/avatar-2.png"
                       width="50"
                       height="50"
-                      alt="Viezh Robert"
+                      alt="Yessica Christy"
                     />
                     <div class="review__id-text">
                       <p class="review__card-name">Yessica Christy</p>
@@ -361,22 +362,19 @@
                   </div>
                   <p class="review__card-rating">4.5</p>
                 </div>
-                <div class="review__quote-wrapper">
-                  <q class="review__card-text">
-                    I like it because I like to travel far and still can connect
-                    with high speed.
-                  </q>
-                </div>
+                <q class="review__card-text">
+                  I like it because I like to travel far and still can connect with high speed.
+                </q>
               </div>
               <div class="review__card">
-                <div class="review__card-about">
+                <div class="review__card-top">
                   <div class="review__card-id">
                     <img
                       class="review__card-avatar"
                       src="./img/avatar-3.png"
                       width="50"
                       height="50"
-                      alt="Viezh Robert"
+                      alt="Kim Young Jou"
                     />
                     <div class="review__id-text">
                       <p class="review__card-name">Kim Young Jou</p>
@@ -385,216 +383,177 @@
                   </div>
                   <p class="review__card-rating">4.5</p>
                 </div>
-                <div class="review__quote-wrapper">
-                  <q class="review__card-text">
-                    This is very unusual for my business that currently requires
-                    a virtual private network that has high security.
-                  </q>
-                </div>
+                <q class="review__card-text">
+                  Wow... I am very happy to use this VPN, it turned out to be
+                  more than my expectations and so far there have been no
+                  problems. LaslesVPN always the best.
+                </q>
               </div>
               <div class="review__card">
-                <div class="review__card-about">
+                <div class="review__card-top">
                   <div class="review__card-id">
                     <img
                       class="review__card-avatar"
-                      src="./img/avatar-3.png"
+                      src="./img/avatar-1.png"
                       width="50"
                       height="50"
                       alt="Viezh Robert"
                     />
                     <div class="review__id-text">
-                      <p class="review__card-name">Kim Young Jou</p>
-                      <p class="review__card-city">Seoul, South Korea</p>
+                      <p class="review__card-name">Viezh Robert</p>
+                      <p class="review__card-city">Warsaw, Poland</p>
                     </div>
                   </div>
                   <p class="review__card-rating">4.5</p>
                 </div>
-                <div class="review__quote-wrapper">
-                  <q class="review__card-text">
-                    This is very unusual for my business that currently requires
-                    a virtual private network that has high security.
-                  </q>
-                </div>
+                <q class="review__card-text">
+                  Wow... I am very happy to use this VPN, it turned out to be
+                  more than my expectations and so far there have been no
+                  problems. LaslesVPN always the best.
+                </q>
               </div>
               <div class="review__card">
-                <div class="review__card-about">
+                <div class="review__card-top">
                   <div class="review__card-id">
                     <img
                       class="review__card-avatar"
-                      src="./img/avatar-3.png"
+                      src="./img/avatar-1.png"
                       width="50"
                       height="50"
                       alt="Viezh Robert"
                     />
                     <div class="review__id-text">
-                      <p class="review__card-name">Kim Young Jou</p>
-                      <p class="review__card-city">Seoul, South Korea</p>
+                      <p class="review__card-name">Viezh Robert</p>
+                      <p class="review__card-city">Warsaw, Poland</p>
                     </div>
                   </div>
                   <p class="review__card-rating">4.5</p>
                 </div>
-                <div class="review__quote-wrapper">
-                  <q class="review__card-text">
-                    This is very unusual for my business that currently requires
-                    a virtual private network that has high security.
-                  </q>
-                </div>
-              </div>
-              <div class="review__card">
-                <div class="review__card-about">
-                  <div class="review__card-id">
-                    <img
-                      class="review__card-avatar"
-                      src="./img/avatar-3.png"
-                      width="50"
-                      height="50"
-                      alt="Viezh Robert"
-                    />
-                    <div class="review__id-text">
-                      <p class="review__card-name">Kim Young Jou</p>
-                      <p class="review__card-city">Seoul, South Korea</p>
-                    </div>
-                  </div>
-                  <p class="review__card-rating">4.5</p>
-                </div>
-                <div class="review__quote-wrapper">
-                  <q class="review__card-text">
-                    This is very unusual for my business that currently requires
-                    a virtual private network that has high security.
-                  </q>
-                </div>
+                <q class="review__card-text">
+                  Wow... I am very happy to use this VPN, it turned out to be
+                  more than my expectations and so far there have been no
+                  problems. LaslesVPN always the best.
+                </q>
               </div>
             </div>
-          </div>
+            <div class="review__button-wrapper container">
+              <div id="dots" class="review__circle-wrapper"></div>
+              <div class="review__arrow-wrapper">
+                <button
+                  class="review__arrow-button review__arrow-button--left"
+                ></button>
+                <button
+                  class="review__arrow-button review__arrow-button--right"
+                ></button>
+              </div>
+            </div>
+          </section>
+          <section class="main__subscribe subscribe">
+            <div class="subscribe__description">
+              <h2 class="subscribe__title section-title">
+                Subscribe Now for Get Special Features!
+              </h2>
+              <p class="subscribe__text">
+                Let's subscribe with us and find the fun.
+              </p>
+            </div>
+            <a href="" class="subscribe__button glow-button">Subscribe Now</a>
+          </section>
         </div>
-        <div class="review__button-wrapper container">
-          <div id="dots" class="review__circle-wrapper"></div>
-          <div class="review__arrow-wrapper">
-            <button
-              class="review__arrow-button review__arrow-button--left"
-            ></button>
-            <button
-              class="review__arrow-button review__arrow-button--reverse review__arrow-button--right"
-            ></button>
-          </div>
-        </div>
-      </section>
-      <section class="main__subscribe container">
-        <div class="main__subscribe-description">
-          <h2 class="main__subscribe-title section-title">
-            Subscribe Now for <br />
-            Get Special Features!
-          </h2>
-          <p class="main__subscribe-text main__text">
-            Let's subscribe with us and find the fun.
-          </p>
-        </div>
-        <a href="#" class="main__subscribe-button glow-button">
-          Subscribe Now</a
-        >
-      </section>
+      </div>
     </main>
     <footer class="footer">
       <div class="footer__container container">
-        <div class="footer__description-wrapper">
+        <div class="footer__about">
           <img
-            class="footer__logo logo"
+            class="footer__img"
             src="./img/Logo.svg"
-            alt="laslesVPN"
             width="149"
             height="36"
+            alt="LaslesVPN"
           />
-          <p class="footer-text text">
-            <strong class="footer-text text text--accent">LaslesVPN</strong> is
-            a private virtual network that <br />
-            has unique features and has high security.
+          <p class="footer__text">
+            <strong class="footer__text text-accent">LaslesVPN</strong> is a
+            private virtual network that has unique features and has high
+            security.
           </p>
-          <div class="footer__social-wrapper">
-            <a href="#" class="footer__social-link">
-              <img
-                class="footer__social-image"
-                src="./img/Facebook.svg"
-                width=""
-                height="33"
-                alt="facebook"
-              />
-            </a>
-            <a href="#" class="footer__social-link">
-              <img
-                class="footer__social-image"
-                src="./img/Twitter.svg"
-                width="33"
-                height="33"
-                alt="Twitter"
-              />
-            </a>
-            <a href="#" class="footer__social-link">
-              <img
-                class="footer__social-image"
-                src="./img/Instagram.svg"
-                width="33"
-                height="33"
-                alt="Instagram"
-              />
-            </a>
-          </div>
+          <ul class="footer__social-list">
+            <li href="#" class="footer__social-item">
+              <a
+                href=""
+                class="footer__social-link footer__social-link--facebook"
+              ></a>
+            </li>
+            <li href="#" class="footer__social-item">
+              <a
+                href=""
+                class="footer__social-link footer__social-link--twitter"
+              ></a>
+            </li>
+            <li href="#" class="footer__social-item">
+              <a
+                href=""
+                class="footer__social-link footer__social-link--instagram"
+              ></a>
+            </li>
+          </ul>
           <p class="footer__copyright">©2020LaslesVPN</p>
         </div>
-        <div class="footer__list-wrapper container">
-          <div class="footer__list-container">
-            <strong class="footer__list-title">Product</strong>
+        <div class="footer__lists">
+          <div class="footer__list-wrapper">
+            <h3 class="footer__title">Product</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <a class="footer__item-link" href="#">Download</a>
+                <a href="#" class="footer__list-link">Download</a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__item-link" href="#">Pricing</a>
+                <a href="#" class="footer__list-link">Pricing</a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__item-link" href="#">Locations</a>
+                <a href="#" class="footer__list-link">Locations</a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__item-link" href="#">Server</a>
+                <a href="#" class="footer__list-link">Server</a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__item-link" href="#">Countries</a>
+                <a href="#" class="footer__list-link">Countries</a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__item-link" href="#">Blog</a>
+                <a href="#" class="footer__list-link">Blog</a>
               </li>
             </ul>
           </div>
-          <div class="footer__list-container">
-            <strong class="footer__list-title">Engage</strong>
+          <div class="footer__list-wrapper">
+            <h3 class="footer__title">Engage</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <a class="footer__item-link" href="#">LaslesVPN ? </a>
+                <a href="#" class="footer__list-link">LaslesVPN ?</a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__item-link" href="#">FAQ</a>
+                <a href="#" class="footer__list-link">FAQ</a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__item-link" href="#">Tutorials</a>
+                <a href="#" class="footer__list-link">Tutorials</a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__item-link" href="#">About Us</a>
+                <a href="#" class="footer__list-link">About Us</a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__item-link" href="#">Privacy Policy</a>
+                <a href="#" class="footer__list-link">Privacy Policy</a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__item-link" href="#">Terms of Service</a>
+                <a href="#" class="footer__list-link">Terms of Service</a>
               </li>
             </ul>
           </div>
-          <div class="footer__list-container">
-            <strong class="footer__list-title">Earn Money</strong>
+          <div class="footer__list-wrapper">
+            <h3 class="footer__title">Earn Money</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <a class="footer__item-link" href="#">Affiliate</a>
+                <a href="#" class="footer__list-link">Affiliate</a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__item-link" href="#">Become Partner</a>
+                <a href="#" class="footer__list-link">Become Partner</a>
               </li>
             </ul>
           </div>
