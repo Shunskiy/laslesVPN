@@ -225,6 +225,16 @@
     width: 300px;
   }
 
+  .review__card-top {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .review__card-rating {
+    margin-top: 10px;
+  }
+
   .review__button-wrapper {
     display: none;
   }
