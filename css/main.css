@@ -87,6 +87,12 @@ button:focus {
   background-color: #f53838;
   border-radius: 10px;
   box-shadow: 0 25px 30px 0 rgba(245, 56, 56, 0.35);
+
+  transition: transform ease .5s;
+}
+
+.glow-button:hover {
+  transform: scale(1.05);
 }
 
 /* Header */
@@ -121,6 +127,13 @@ button:focus {
 
   border: 1px solid #f53855;
   border-radius: 50px;
+
+  transition: ease .2s;
+}
+
+.header__sign-up:hover {
+  background-color: #f53838;
+  color: #ffffff;
 }
 
 .hamburger {
