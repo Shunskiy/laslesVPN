@@ -716,6 +716,11 @@ button:focus {
 }
 
 .footer__copyright {
+  color: #afb5c0;
+  font-weight: 400;
+}
+
+.footer__copyright--accent {
   font-weight: 500;
 }
 
