@@ -188,7 +188,7 @@
 
     list-style: none;
     background-color: #eceff1;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
   }
 
   .hamburger__item {
